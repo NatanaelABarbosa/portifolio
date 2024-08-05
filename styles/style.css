@@ -214,10 +214,11 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         width: 80%;
+        padding: 3% 9%;
     }
 
     .apresentacao__conteudo {
-        width: 100%;
+        width: auto;
     }
 
     .cabecalho__menu {
@@ -227,11 +228,15 @@ body {
     }
 
     .apresentacao__conteudo_about {
-        width: 100%;
+        width: auto;
     }
 
     .informacoes_pessoais {
         flex-direction: column;
+    }
+
+    .informacoes_pessoais__dados {
+        gap: 12px;
     }
 
     .apresentacao__links__nav {
