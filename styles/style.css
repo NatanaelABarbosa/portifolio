@@ -227,8 +227,7 @@ body {
 
     .apresentacao2 {
         flex-direction: column-reverse;
-        width: 80%;
-        padding: 3% 11%;
+        justify-content: center;
     }
 
     .apresentacao__conteudo {
