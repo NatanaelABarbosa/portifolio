@@ -218,32 +218,33 @@ body {
 }
 
 @media (max-width: 1100px) {
+    
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    
     .apresentacao {
         flex-direction: column-reverse;
         width: 80%;
-        padding: 3% 9%;
+        padding: 9%;
     }
 
     .apresentacao2 {
         flex-direction: column-reverse;
         justify-content: center;
+        padding: 9%;
     }
 
     .apresentacao__conteudo {
         width: auto;
     }
 
-    .cabecalho__menu {
-        margin-top: 3%;
-        justify-content: space-evenly;
-    }
-
     .apresentacao__conteudo__titulo {
         font-size: 1.5rem;
-    }
-
-    .apresentacao__conteudo__img {
-        margin-top: 15%;
     }
 
     .apresentacao__conteudo_about {
