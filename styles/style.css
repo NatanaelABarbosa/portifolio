@@ -234,7 +234,7 @@ body {
     }
 
     .cabecalho__menu {
-        margin-left: 2%;
+        justify-content: center;
     }
 
     .apresentacao__conteudo__titulo {
