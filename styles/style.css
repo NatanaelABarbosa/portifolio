@@ -231,7 +231,7 @@ body {
     }
 
     .informacoes_pessoais {
-        width: 100%;
+        flex-direction: column;
     }
 
     .apresentacao__links__nav {
