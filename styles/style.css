@@ -134,6 +134,14 @@ body {
     text-align: center;
 }
 
+.apresentacao2 {
+    padding: 3% 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
 .apresentacao__conteudo_about {
     width: 45%; 
     display: flex;
@@ -217,6 +225,12 @@ body {
         padding: 3% 9%;
     }
 
+    .apresentacao2 {
+        flex-direction: column-reverse;
+        width: 80%;
+        padding: 10% 10%;
+    }
+
     .apresentacao__conteudo {
         width: auto;
     }
@@ -224,7 +238,11 @@ body {
     .cabecalho__menu {
         justify-content: center;
         padding-top: 8%;
-        padding-bottom: 8%;
+        padding-bottom: 4%;
+    }
+
+    .apresentacao__conteudo__img {
+        margin-top: 4%;
     }
 
     .apresentacao__conteudo_about {
